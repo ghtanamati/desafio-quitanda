@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<link rel="stylesheet" href="style.css">
+	<title>Quitanda</title>
+</head>
+
+<body>
+	<header>
+		<h1>NOSSA QUITANDA</h1>
+	</header>
+	
+	<main class="flex flex-column">
+		<h2>Lista de Produtos</h2> 
+		
+		<div id="content-produtos" class="flex">
+			<ul id="produtos"></ul>
+		</div>
+
+		<h2>Sua Cesta</h2>
+		
+		<div id="content-lista-produtos-cliente" class="flex">
+			
+			<ul id="cestaDoCliente"></ul>
+
+			<div id="content-totalCompras" class="flex flex-row-end">
+				<span class="flex">TOTAL</span>
+				<input type="text" id="mostraTotalCompra" name="" disabled>
+			</div>
+		</div>
+	</main>
+	<script src="script.js"></script>
+</body>
+</html>
